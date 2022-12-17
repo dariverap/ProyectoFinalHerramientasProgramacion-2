@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Fredoka One', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+nav {
+  border-bottom: 0px !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.body-sidebar{
+  margin: 0;
+}
+
+.list-items{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  height: 110%;
+  background-color: #0D4C92;
+  position: absolute;
+  overflow: auto;
+  padding-top: 120px;
+}
+
+.logo-barra{
+    margin-right: 20px;
+}
+
+:root {
+  --primary: #242526;
+  --light: #ffffff;
+  --grey: #efefef;
+  --boton: #59C1BD;
+  --hover: #695CFE;
+  --home : #A0E4CB;
+
+  --width : 300px;
+  --padding: 10px;
+  --bgcolor: rgb(52,52,52);
+  --hovercolor: rgb(23,23,23);
+  --width-collapsed: 50px;
+}
+
+.cuerpo {
+  overflow: hidden;
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  color: var(--primary);
+}
+
+
+.bg-azul { background-color: var(--primary) !important; }
+
+.bg-light { background-color: var(--light) !important; }
+
+.bg-grey { background-color: var(--grey) !important; }
+
+.bg-mix { background: linear-gradient(180deg, var(--light) 50%, var(--grey) 0); }
+
+.bg-boton { background-color: var(--boton) !important; }
+
+.bg-hover { background-color: var(--hover);}
+
+.bg-home { background-color: var(--home) !important;}
+
+
+.bt-hover {
+  border: 0px !important;
+}
+
+.bt-hover:hover {
+  background-color: var(--hover) !important;
+  color: white !important;
+}
+
+
+#content {
+  overflow-y: auto;
+  padding-bottom: 5rem;
+  margin-left: 30%;
+}
+
+.menu a:active{
+  background-color: #33408F;
+}
+
+.boton-usuario{
+  border-radius: 20px;
+}
+
+.bg-boton {
+  color: "#0D4C92" !important;
+  border-radius: 50px !important;
+  background: #e0e0e0;
+  box-shadow:  9px 9px 0px #A0E4CB,
+  -9px -9px 0px #CFF5E7;
+}
+
+.bt-home{
+  border-radius: 50px !important; 
+  background: var(--boton) !important;
+  box-shadow:  9px 9px 0px #CFF5E7,
+  -9px -9px 0px #CFF5E7 !important;
+}
+
+.form-control input:hover{
+  border: "none" !important;
+}
